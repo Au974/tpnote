@@ -1,0 +1,21 @@
+git init
+git remote add origin https://github.com/Au974/tpnote.git
+git clone https://github.com/Au974/tpnote
+git checkout -b sami
+
+nano index.html
+git add index.html
+git config --global user.email "sami.frydman@gmail.com"
+git config --global user.name "samijo12"
+git commit -m "head and header of the index page"
+git push origin sami
+
+nano index.html
+git add index.html
+git commit -m "nav of the index page"
+git push origin sami
+
+nano index.html
+git add index.html
+git commit -m "main and footer of index page"
+git push origin sami
