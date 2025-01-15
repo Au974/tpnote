@@ -14,3 +14,7 @@ git checkout main
 git checkout -b test
 git merge samilocal
 git merge younis
+git fetch origin
+git checkout -b aurorelocal origin/aurore
+git checkout test
+git merge aurorelocal
