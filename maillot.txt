@@ -52,5 +52,15 @@ git checkout main
 git status
 git fetch origin
 git checkout -b testlocal origin/test
+git checkout main
 git fetch origin
-git merge origin/test
+git merge testlocal
+git add css/style.css
+git add html/page1.html
+git add index.html
+git commit -m "commit ajout à master"
+git push origin main
+git checkout aurore
+git add maillot.txt
+git commit -m "commit commande final"
+git push origin aurore
