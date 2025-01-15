@@ -1,0 +1,16 @@
+git clone https://github.com/Au974/tpnote.git
+git checkout -b younis
+nano style.css
+git add style.css
+git config user.email "younis.hajeje25@gmail.com"
+git config user.name "yhjeje"
+git commit -m "ecriture dans style.Css"
+git push origin younis
+git fetch origin
+git checkout -b samilocal origin/sami
+git fetch origin
+git merge origin/sami
+git checkout main
+git checkout -b test
+git merge samilocal
+git merge younis
