@@ -33,3 +33,24 @@ nano maillot.txt
 git add maillot.txt
 git commit -m "commit commande fichier txt"
 git push origin aurore
+cd html
+nano page1.html
+cd ..
+git add html/page1.html
+git commit -m "commit page1 html structure"
+git push origin aurore
+cd html
+nano page1.html
+cd ..
+git add html/page1.html
+git commit -m "commit page1 html rempli"
+git push origin aurore
+git add maillot.txt
+git commit -m "commit commande version merge main"
+git push origin aurore
+git checkout main
+git status
+git fetch origin
+git checkout -b testlocal origin/test
+git fetch origin
+git merge origin/test
